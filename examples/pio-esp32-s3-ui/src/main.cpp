@@ -24,11 +24,11 @@ void registerUiRoutes() {
       wm.handleNotFound();
     }
   });
-  wm.server->on("/assets/index-KbsjIBJf.css", []() {
-    if (!serveStaticPath(F("/assets/index-KbsjIBJf.css"), F("text/css"))) wm.handleNotFound();
+  wm.server->on("/assets/index-DMgoeVjO.css", []() {
+    if (!serveStaticPath(F("/assets/index-DMgoeVjO.css"), F("text/css"))) wm.handleNotFound();
   });
-  wm.server->on("/assets/index-DwDNELaZ.js", []() {
-    if (!serveStaticPath(F("/assets/index-DwDNELaZ.js"), F("application/javascript"))) wm.handleNotFound();
+  wm.server->on("/assets/index-DjCb5RS7.js", []() {
+    if (!serveStaticPath(F("/assets/index-DjCb5RS7.js"), F("application/javascript"))) wm.handleNotFound();
   });
   wm.server->on("/vite.svg", []() {
     if (!serveStaticPath(F("/vite.svg"), F("image/svg+xml"))) wm.handleNotFound();

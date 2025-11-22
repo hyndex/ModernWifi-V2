@@ -224,6 +224,8 @@ class WiFiManagerParameter {
 
   protected:
     void init(const char *id, const char *label, const char *defaultValue, int length, const char *custom, int labelPlacement);
+
+    WiFiManagerParameter& operator=(const WiFiManagerParameter&);
     const char *_id;
     const char *_label;
     char       *_value;
